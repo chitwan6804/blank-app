@@ -1,4 +1,5 @@
-.\venv\Scripts\activate
+cd /path/to/your/project       # Navigate to your project directory
+source venv/bin/activate 
 
 import streamlit as st
 import pandas as pd
