@@ -1,9 +1,9 @@
-cd /path/to/your/project       # Navigate to your project directory
-source venv/bin/activate 
-
 import streamlit as st
 import pandas as pd
 import numpy as np
+.\venv\Scripts\activate         # Activate the virtual environment (Windows)
+pip install scikit-learn       # Install scikit-learn
+streamlit run streamlit_app.py 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from keras import models, layers
